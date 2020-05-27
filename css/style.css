@@ -1,0 +1,117 @@
+body {
+  background-color: #a8a6f9;
+}
+.greeting {
+  width: 100%;
+  font-family: Over The Rainbow;
+  font-size: 120px;
+  text-align: center;
+  color: #7e70e9;
+  margin-top: 0.5em;
+  text-shadow: 3px 2px 2px rgba(2, 2, 2, 0.65);
+}
+
+.button {
+  text-decoration: none;
+  border: 3px solid #f2c1f8;
+  border-radius: 20px;
+  padding: 18px 25px;
+  color: #f2c1f8;
+  font-family: Arial;
+  font-size: 50px;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+.button:hover {
+  background-color: #a994f1;
+  color: #fff;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 700ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+/*overlay:after {
+  animation: explode 4s infinite;
+}*/
+
+.love {
+  padding: 25px 28px;
+  background: #7e70e9;
+  /*   width: 100%; */
+  height: 100%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  overflow: scroll;
+}
+.love .close {
+  position: absolute;
+  top: 5px;
+  left: 12px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 3px 2px 2px #9e343e;
+}
+.love h2 {
+  font-family: Arial;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+/* .message{
+  opacity: 0;
+  transition: all 2s ease-in-out;
+  pointer: cursor;
+}
+.message:hover {
+  opacity: 1;
+  -webkit-transition-delay: 2s;
+  transition-delay: 2s;
+  pointer: cursor;
+} */
+.message h2,
+.message p,
+.message h3 {
+  padding: 0 140px;
+  font-family: Courgette;
+  pointer: cursor;
+}
+.message h2 {
+  text-align: left;
+  color: #fff;
+  font-size: 80px;
+}
+.message p {
+  text-align: justify;
+  color: #fff;
+  font-size: 45px;
+  /*   letter-spacing: 1px;
+  line-height: 24px; */
+  padding: 0 130px;
+}
+.message h3 {
+  text-align: right;
+  color: #fff;
+  font-size: 26px;
+  padding-bottom: 40px;
+}
+
+.cora img {
+  width: 50%;
+  margin-top: 100px;
+}
